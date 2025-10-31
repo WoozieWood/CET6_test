@@ -13,7 +13,7 @@ A lightweight CLI toolset to practice CET-4/6 vocabulary with randomized multipl
 - 错题本模式（Wrongbookmode.py）：从错题本中出题，答对问题自动删除该选项；支持自动创建/重建错题本，支持去重策略。
 
 目录结构
-- 4 六级-乱序.txt：词库示例，格式为“英文[TAB]中文释义”，亦兼容“英文 空白 中文释义”。
+- CET-6.txt：词库示例，格式为“英文[TAB]中文释义”，亦兼容“英文 空白 中文释义”。
 - EntireRandomTest.py：完整词库随机刷题脚本。
 - Wrongbookmode.py：错题本模式脚本（包含去重/重建逻辑）。
 
@@ -29,7 +29,7 @@ A lightweight CLI toolset to practice CET-4/6 vocabulary with randomized multipl
 
 3) 运行错题本模式
 - 执行 Wrongbookmode.py
-- 首次运行将创建错题本；如错题本条目显著少于原库，会提示是否重建。
+- 首次运行（未检测到目录包含错题本）将创建错题本(题库副本)；如错题本条目显著少于原库，会提示是否重建。
 - 按提示进行测验与错题维护，每次回答正确会删除对应单词。
 
 词库格式说明
