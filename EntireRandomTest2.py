@@ -4,7 +4,7 @@ import datetime
 import os
 import sys
 
-VOCAB_FILE = "..\\4 六级-乱序.txt"
+VOCAB_FILE = "..\\CET-6.txt"
 
 def load_vocab(path):
     vocab = []
@@ -127,3 +127,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
