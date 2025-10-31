@@ -4,14 +4,14 @@ import os
 import sys
 
 # 自行按需修改为你的绝对路径
-VOCAB_FILE = r"..\4 六级-乱序.txt"
+VOCAB_FILE = r"..\CET-6.txt"
 WRONGBOOK_FILE = r"..\Wrongbook\wrongbook.txt"
 
 # 去重模式: "english"（按英文去重）, "pair"（按英文+中文去重）, "none"（不去重）
 DEDUP_MODE = "pair"
 
 # 当已有 wrongbook 条目显著少于原库时（比例阈值），提示是否重建
-WRONGBOOK_REBUILD_RATIO = 0.001  # 低于 50% 则提醒
+WRONGBOOK_REBUILD_RATIO = 0.001  # 低于 0.1% 则提醒
 
 def load_vocab(path):
     vocab = []
@@ -214,3 +214,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
