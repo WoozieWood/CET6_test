@@ -4,7 +4,7 @@ import datetime
 import os
 import sys
 
-VOCAB_FILE = "..\\CET-6.txt"
+VOCAB_FILE = "..\CET-6.txt"
 
 def load_vocab(path):
     vocab = []
@@ -21,7 +21,7 @@ def load_vocab(path):
                 if eng and cn:
                     vocab.append((eng, cn))
             else:
-                # 可能是以空格分隔的遗留行，尽力解析
+                # 可能是以空格分隔的遗留行
                 # 找到第一个连续空白分隔
                 sp = line.split(None, 1)
                 if len(sp) == 2:
@@ -127,4 +127,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
