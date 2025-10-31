@@ -1,6 +1,6 @@
 四/六级词汇测验小工具
 
-A lightweight CLI toolset to practice CET-4/6 vocabulary with randomized multiple-choice quizzes and a “wrongbook” mode to focus on mistakes.
+A lightweight vocabulary toolset to practice CET-4/6 vocabulary with randomized multiple-choice quizzes and a “wrongbook” mode to focus on mistakes.
 
 - 语言/Language: Python 3
 - 文件/Files:
